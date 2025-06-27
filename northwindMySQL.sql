@@ -1,8 +1,10 @@
+-- CREATE SCHEMA northwind;
+categoriesUSE northwind;
 -- MySQL dump 10.13  Distrib 8.0.25, for Linux (x86_64)
 --
 -- Host: localhost    Database: northwind
 -- ------------------------------------------------------
--- Server version	8.0.29-0ubuntu0.21.10.2
+-- Server version	8.0.29-0ubuntu0.21.10.2categories
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;

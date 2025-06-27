@@ -68,7 +68,9 @@ FROM order_details;
 Una vez hemos inspeccionado el tipo de pedidos que tenemos en la empresa (en la tabla order_details), desde la dirección nos piden conocer los 3 pedidos 
 que han supuesto un mayor ingreso para la empresa. Crea una columna en esta consulta con el alias ImporteTotal. 
 Nota: Utiliza UnitPrice y Quantity para calcular el importe total. */
-
+SELECT order_idcustomers AS Importetotal
+FROM order_details
+WHERE Importetotal = unit_price * quantity;
 
 /* 14.Los pedidos que están entre las posiciones 5 y 10 de nuestro ranking:
 Ahora, no sabemos bien por qué razón, desde el departamento de Ventas nos piden seleccionar el ID de los pedidos situados entre la 5 y la 10 mejor posición 
